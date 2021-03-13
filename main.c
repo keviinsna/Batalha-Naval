@@ -7,13 +7,14 @@
 #include "interfaces/funcoes.h"
 
 int main(void){  
-    
+    int multijogador;
     muda_config_windows();
     while(1){        
         switch(tela_inicial()){
-        case 1:
-            posicionar_embarcacao();
-            iniciar_jogo();
+        case 1:            
+            multijogador = tela_multijogadores();
+            posicionar_embarcacao(multijogador);
+            iniciar_jogo(multijogador);
             break;
         case 2:            
             instrucoes();
