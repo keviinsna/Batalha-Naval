@@ -5,7 +5,7 @@
 #define MAX 11
 
 #define TAM_PORTA_AVIAO 4
-#define TAM_CRUZADO 3
+#define TAM_CRUZADOR 3
 #define TAM_CONTRATORPEDO 2
 #define TAM_SUBMARINO 1
 #define TAM_BOMBA 1
@@ -14,7 +14,7 @@
 
 /*Quantidade de barcos*/
 #define QTD_PORTA_AVIAO 1
-#define QTD_CRUZADO 2
+#define QTD_CRUZADOR 2
 #define QTD_CONTRATORPEDO 3
 #define QTD_SUBMARINO 4
 #define QTD_BOMBA 3

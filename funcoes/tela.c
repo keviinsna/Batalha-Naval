@@ -165,7 +165,7 @@ void imprime_tabuleiro(char tabuleiro[MAX][MAX]){
                     break;
                 case 4:
                     printf(COLOR_YELLOW"@"COLOR_RESET" - BOMBAS");
-                    printf("\t\t\t   2 CRUZADOS (3 CASAS CADA): 1");
+                    printf("\t\t\t   2 CRUZADORES (3 CASAS CADA): 1");
                     break;
                 case 6:
                     printf(COLOR_BLUE"."COLOR_RESET" - ÁGUA");

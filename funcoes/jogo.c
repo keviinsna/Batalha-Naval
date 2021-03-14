@@ -134,9 +134,9 @@ void preenche_tabuleiro(char tabuleiro[MAX][MAX]){
                 break; 
             
             case 2:
-                qtd_barco = QTD_CRUZADO;
-                strcpy(barco,"CRUZADO");
-                tamanho = TAM_CRUZADO;
+                qtd_barco = QTD_CRUZADOR;
+                strcpy(barco,"CRUZADOR");
+                tamanho = TAM_CRUZADOR;
                 break;
             
             case 3:
@@ -244,8 +244,8 @@ void preenche_tabuleiro_auto(char tabuleiro[MAX][MAX]){
                 break; 
             
             case 2:
-                qtd_barco = QTD_CRUZADO;
-                tamanho   = TAM_CRUZADO;
+                qtd_barco = QTD_CRUZADOR;
+                tamanho   = TAM_CRUZADOR;
                 break;
             
             case 3:
@@ -563,7 +563,6 @@ void jogador_vs_jogador(){
         }
     }
 }
-
 void jogador_vs_cpu(){
     int linha, coluna;
     int resp_verificacao, resp_tiro; 
